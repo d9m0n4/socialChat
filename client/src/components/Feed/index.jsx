@@ -1,5 +1,5 @@
 import React from 'react';
-import { Share } from '../../components';
+import { Share, Post } from '../../components';
 
 import './feed.scss';
 
@@ -8,6 +8,7 @@ const Feed = () => {
     <div className="feed">
       <div className="feedWrapper">
         <Share />
+        <Post />
       </div>
     </div>
   );
